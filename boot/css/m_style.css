@@ -1,0 +1,58 @@
+.fixed {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	border: 20px solid;
+	border-color: #0c3f47;
+	border-radius: 40px;
+	box-shadow: 0 0 0 40px #0c3f47;
+	overflow: auto;
+	background: url('../../img/bg5.jpg');
+	background-size: cover;
+}
+
+.fixed .heading {
+	padding-bottom: 30px;
+	background: rgba(255,255,255,0.4);
+}
+
+.fixed .heading img {
+	width: 250px;
+	height: 120px;
+}
+
+.fixed .heading h2 {
+	font-weight: bolder;
+	font-size: 50px;
+	color: #032982;
+	font-family: Verdana;
+}
+
+.fixed .heading h3 {
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	color: #fafafa;
+	text-shadow: 0 0 20px black;
+	font-family: Lucida Calligraphy;
+}
+
+.user {
+	margin-top: 20px;
+	width: 50%;
+}
+
+.admin {
+	text-align: right;
+	margin-top: 20px;
+	width: 50%;
+	margin-left: 50%;
+}
+
+.sms {
+	padding: 10px 20px;
+	font-size: 22px;
+	background: linear-gradient(300deg, #0e65b5 0%, #090670 100%);
+	border-radius: 5px 25px;
+	color: white;
+}
